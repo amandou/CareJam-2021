@@ -15,11 +15,11 @@ C:/Users/amand/Documents/Amanda/Code/CareJam-2021/SplicedSlugs
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62167
+59608
 Successfully changed project path to: C:/Users/amand/Documents/Amanda/Code/CareJam-2021/SplicedSlugs
 C:/Users/amand/Documents/Amanda/Code/CareJam-2021/SplicedSlugs
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 73.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -36,144 +36,114 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003329 seconds.
+Registered in 0.003492 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 72.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.209 seconds
+- Completed reload, in  1.483 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011393 seconds.
+Registered in 0.008493 seconds.
 Begin MonoManager ReloadAssembly
+Error: Could not load signature of Packages.Rider.Editor.UnitTesting.SyncTestRunCallback:RunStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+
+Error: Could not load signature of UnityEngine.TestRunner.ITestRunCallback:RunStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.TestResultRendererCallback:RunStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.TestResultRendererCallback:RunFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.TestResultRendererCallback:TestStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.TestResultRendererCallback:TestFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.TestListCacheData:get_cachedData due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.EditModeRunnerCallback:RunStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.EditModeRunnerCallback:RunFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.EditModeRunnerCallback:TestStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.EditModeRunnerCallback:TestFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.EditModeRunnerCallback:GetTestsExpectedToRun due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.Api.CallbacksDelegatorListener:RunStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.Api.CallbacksDelegatorListener:RunFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.Api.CallbacksDelegatorListener:TestStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.Api.CallbacksDelegatorListener:TestFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestRunner.Utils.TestRunCallbackListener:RunStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestRunner.Utils.TestRunCallbackListener:RunFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestRunner.Utils.TestRunCallbackListener:TestStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestRunner.Utils.TestRunCallbackListener:TestFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.PlayerQuitHandler:RunStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.PlayerQuitHandler:RunFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.PlayerQuitHandler:TestStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.PlayerQuitHandler:TestFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.EditModeRunner:TestStartedEvent due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.EditModeRunner:TestFinishedEvent due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.EditModeRunner:GetLoadedTests due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.EditModeRunner:GetFilter due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.EditModeRunner:<GetFilter>b__52_0 due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender:RunStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender:RunFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender:TestStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender:TestFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.BeforeAfterTestCommandState:StoreTestResult due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.BeforeAfterTestCommandState:ApplyTestResult due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.TestRunnerCallback:RunStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.TestRunnerCallback:RunFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.TestRunnerCallback:TestStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.TestRunnerCallback:TestFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.AttributeFinderBase:Search due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEditor.TestTools.TestRunner.IAttributeFinder:Search due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of Packages.Rider.Editor.UnitTesting.TestsCallback:ParseTestStatus due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback:RunFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback:TestFinished due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback:RunStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Could not load signature of UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback:TestStarted due to: Could not load file or assembly 'nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb' or one of its dependencies. assembly:nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.Rider.Editor.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.TestRunner.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.TestRunner.dll, this assembly can cause crashes in the runtime
+
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 76.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 75.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+TypeLoadException: Invalid type Packages.Rider.Editor.UnitTesting.TestEvent[] for instance field System.Collections.Generic.List`1[Packages.Rider.Editor.UnitTesting.TestEvent]:_items
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType(Type, Boolean)
+UnityEngine.ScriptableObject:CreateInstance(Type)
+UnityEngine.ScriptableObject:CreateInstance()
+UnityEditor.ScriptableSingleton`1:CreateAndLoad()
+UnityEditor.ScriptableSingleton`1:get_instance()
+Packages.Rider.Editor.UnitTesting.CallbackInitializer:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes(Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Packages.Rider.Editor.UnitTesting.CallbackInitializer..cctor () [0x00005] in <6509fac25c204c17bfe0ca11353b9c6d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.492 seconds
+- Completed reload, in  1.499 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.9 MB.
-System memory in use after: 144.0 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3710.
-Total: 3.325900 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.211800 ms MarkObjects: 2.625000 ms  DeleteObjects: 0.159500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(ab856e82486b67542a0ec12be6b3a9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(ab856e82486b67542a0ec12be6b3a9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bd6f0b4d61b5b57b215ce02f0a73ee') in 0.019258 seconds 
-  Import took 0.025660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000593 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18330fabc10aaa16f8de18a5bb2a8dfa') in 0.003198 seconds 
-  Import took 0.010259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 229.570450 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(ab856e82486b67542a0ec12be6b3a9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(ab856e82486b67542a0ec12be6b3a9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c35370c2435ba63891cea343933ca2') in 0.003283 seconds 
-  Import took 0.048673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2262.457281 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(71f2b8f35c59ddb45993be2f3626d74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(71f2b8f35c59ddb45993be2f3626d74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda93b3e5704fff7e071027e714c4402') in 0.006297 seconds 
-  Import took 0.106306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.549902 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(627212ff77b5ce24c85d40fb8ddd6591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(627212ff77b5ce24c85d40fb8ddd6591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9a6c79c8536aecd90a720dcee65f79') in 0.122078 seconds 
-  Import took 0.134294 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.028064 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.762 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.8 MB.
-System memory in use after: 135.9 MB.
+Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.0 MB.
+System memory in use after: 142.1 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3714.
-Total: 7.832500 ms (FindLiveObjects: 0.616800 ms CreateObjectMapping: 0.244800 ms MarkObjects: 6.345100 ms  DeleteObjects: 0.623800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014537 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.406 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.8 MB.
-System memory in use after: 135.9 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3718.
-Total: 3.231500 ms (FindLiveObjects: 0.338600 ms CreateObjectMapping: 0.211900 ms MarkObjects: 2.335100 ms  DeleteObjects: 0.344700 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3645.
+Total: 3.745200 ms (FindLiveObjects: 0.339100 ms CreateObjectMapping: 0.180200 ms MarkObjects: 3.029800 ms  DeleteObjects: 0.193900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -187,370 +157,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 549.997726 seconds.
-  path: Assets/MainMenu.cs
-  artifactKey: Guid(80c52d45528a1b346be795c8459a3022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainMenu.cs using Guid(80c52d45528a1b346be795c8459a3022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6a6e6ba3061cad34dab9f18881b2c6') in 0.012101 seconds 
-  Import took 0.022021 seconds .
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(51dd04b6e10328348baa95d12120664d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(51dd04b6e10328348baa95d12120664d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7755b650d25a8d65cb81c16f102335aa') in 0.007144 seconds 
+  Import took 0.015666 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010719 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.580 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.9 MB.
-System memory in use after: 136.0 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3722.
-Total: 3.479700 ms (FindLiveObjects: 0.340400 ms CreateObjectMapping: 0.188300 ms MarkObjects: 2.814700 ms  DeleteObjects: 0.134700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011997 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.443 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.9 MB.
-System memory in use after: 136.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3726.
-Total: 3.354800 ms (FindLiveObjects: 0.368700 ms CreateObjectMapping: 0.189600 ms MarkObjects: 2.651300 ms  DeleteObjects: 0.143700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 317.738637 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(627212ff77b5ce24c85d40fb8ddd6591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(627212ff77b5ce24c85d40fb8ddd6591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11da1d3dfdc522aaf2535ca2656e3e6') in 0.007493 seconds 
-  Import took 0.013029 seconds .
+  Time since last request: 0.000448 seconds.
+  path: Assets/Scenes/SampleScene/Main Camera Profile.asset
+  artifactKey: Guid(2bc622fc59df05d44828d91fba053bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Main Camera Profile.asset using Guid(2bc622fc59df05d44828d91fba053bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343414d05acdadd797195a97e7fdd619') in 0.077431 seconds 
+  Import took 0.086447 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016057 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.584 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.9 MB.
-System memory in use after: 136.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3730.
-Total: 5.626900 ms (FindLiveObjects: 0.958000 ms CreateObjectMapping: 0.284800 ms MarkObjects: 4.208800 ms  DeleteObjects: 0.173300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019387 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.642 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.9 MB.
-System memory in use after: 136.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3734.
-Total: 6.041300 ms (FindLiveObjects: 1.502900 ms CreateObjectMapping: 0.389500 ms MarkObjects: 3.976900 ms  DeleteObjects: 0.170100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006277 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.459 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.9 MB.
-System memory in use after: 136.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3738.
-Total: 3.794000 ms (FindLiveObjects: 0.539500 ms CreateObjectMapping: 0.286600 ms MarkObjects: 2.749900 ms  DeleteObjects: 0.216000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008904 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.351 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.9 MB.
-System memory in use after: 136.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3742.
-Total: 3.698700 ms (FindLiveObjects: 0.338400 ms CreateObjectMapping: 0.200900 ms MarkObjects: 3.021800 ms  DeleteObjects: 0.136100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006826 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.565 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.0 MB.
-System memory in use after: 136.1 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3746.
-Total: 4.473900 ms (FindLiveObjects: 0.400200 ms CreateObjectMapping: 0.224400 ms MarkObjects: 3.583500 ms  DeleteObjects: 0.263400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006412 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.595 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.0 MB.
-System memory in use after: 136.1 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3750.
-Total: 4.794700 ms (FindLiveObjects: 0.703400 ms CreateObjectMapping: 0.360800 ms MarkObjects: 3.511700 ms  DeleteObjects: 0.216500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006559 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.230 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.0 MB.
-System memory in use after: 136.1 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3754.
-Total: 3.208500 ms (FindLiveObjects: 0.333200 ms CreateObjectMapping: 0.189900 ms MarkObjects: 2.509300 ms  DeleteObjects: 0.174800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010652 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.480 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.0 MB.
-System memory in use after: 136.1 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3758.
-Total: 4.364900 ms (FindLiveObjects: 0.545900 ms CreateObjectMapping: 0.307800 ms MarkObjects: 3.357900 ms  DeleteObjects: 0.151100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008189 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.443 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.0 MB.
-System memory in use after: 136.1 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3762.
-Total: 4.154000 ms (FindLiveObjects: 0.958100 ms CreateObjectMapping: 0.224100 ms MarkObjects: 2.773100 ms  DeleteObjects: 0.196500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
